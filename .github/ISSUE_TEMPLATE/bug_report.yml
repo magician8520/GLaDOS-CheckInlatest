@@ -42,7 +42,7 @@ body:
         2. 点击具体工作流
         3. 点击 build
         4. 点击右上角选项，选择 "View raw logs"
-        5. 复制logs，去除账号信息，粘贴到下方文本域
+        5. 复制logs，粘贴到下方文本域
     validations:
       required: true
   - type: markdown
