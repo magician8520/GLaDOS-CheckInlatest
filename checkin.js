@@ -177,7 +177,7 @@ const GLaDOSCheckIn = async () => {
 
             const PUSHPLUS = process.env.PUSHPLUS;
 
-            if (!PUSHPLUS.length) {
+            if (!PUSHPLUS) {
                 console.warn('不存在 PUSHPLUS ，请重新检查');
             }
 
